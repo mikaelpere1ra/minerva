@@ -1008,12 +1008,17 @@ footer {
 
   /* Hero */
   .hero { padding: 110px 0 72px; min-height: auto; }
-  .hero-layout { grid-template-columns: 1fr; gap: 0; }
-  .hero-visual { display: none; }
+  .hero-layout { grid-template-columns: 1fr; gap: 32px; }
+  .hero-visual { display: block; }
   .hero-headline { font-size: clamp(32px, 7vw, 46px); letter-spacing: -1px; }
   .hero-sub { font-size: 16px; max-width: 100%; }
   .hero-content .tag-label { margin-bottom: 20px; }
   .cta-group { gap: 12px; margin-bottom: 32px; }
+
+  /* Terminal mobile */
+  .terminal-body { min-height: auto; padding: 16px; font-size: 11px; line-height: 1.75; }
+  .terminal-title { font-size: 10px; }
+  .score-card { display: none; }
 
   /* Proof bar */
   .proof-bar-inner { grid-template-columns: 1fr 1fr; }
